@@ -144,7 +144,14 @@ Within our interpreter portion, we have the `executor.h`, the `executor.c` and t
 
 
 
-## 🪭 Error Handling
+## 🪭 How to Run
+To run the entire code, ensure that all of them are compiled together, as follows:
+
+`gcc -o chemiscript parser.c lexer.c executor.c interpreter.c`
+
+Then execute using the code:
+
+`./chemiscript sample.chem`
 
 ## 🧬 Sample Program
 
